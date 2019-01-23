@@ -1,5 +1,7 @@
 # Conda Package Download Data
 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
 This repository describes the conda package download data provided by Anaconda, Inc.  It includes package download counts starting from July 2017 for the following download sources:
 
 * Anaconda Distribution: The default channels hosted on `repo.anaconda.com` (and historically on `repo.continuum.io`)
@@ -24,14 +26,19 @@ The storage format is Parquet, one file per day, with SNAPPY compression.  Files
   - `s3://anaconda-package-data/conda/[year]/[month]/[year]-[month]-[day].parquet`
 
 
+## Known Issues
+
+There are some known gaps in the dataset, and Anaconda.org data doesn't appear in the data set until April 2017.  See [KNOWN_ISSUES.md](KNOWN_ISSUES.md) for more details.
+
+
 ## Updates
 
-This data will be updated approximately monthly.  Note that we may revise historical data if processing issues are discovered, or to add additional data (like new Anaconda.org channels).  We will update the [CHANGE_LOG] when new or revised data is posted.
+This data will be updated approximately monthly.  Note that we may revise historical data if processing issues are discovered, or to add additional data (like new Anaconda.org channels).  We will update the [change log](CHANGE_LOG.MD) when new or revised data is posted.
 
 
 ## License
 
-This data is provided as-is, with no warranty.  See [LICENSE.txt](LICENSE.txt) for more information.
+This dataset is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).  We are offering this data to help the community understand the usage of conda packages, but with no warranty.  If you use this data, please acknowledge Anaconda as the source and link back to this Github repository.
 
 
 ## Feedback
