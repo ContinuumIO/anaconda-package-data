@@ -33,7 +33,7 @@ There are some known gaps in the dataset, and Anaconda.org data doesn't appear i
 
 ## Updates
 
-This data will be updated approximately monthly.  Note that we may revise historical data if processing issues are discovered, or to add additional data (like new Anaconda.org channels).  We will update the [change log](CHANGE_LOG.MD) when new or revised data is posted.
+This data will be updated approximately monthly.  Note that we may revise historical data if processing issues are discovered, or to add additional data (like new Anaconda.org channels).  We will update the [change log](CHANGE_LOG.md) when new or revised data is posted.
 
 
 ## License
