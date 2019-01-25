@@ -1,0 +1,22 @@
+package:
+  version: '0.1'
+  name: 'anaconda-package-data'
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  run:
+    - intake
+    - intake-parquet
+    - tqdm
+    - s3fs
+  build: []
+
+about:
+  home: https://github.com/ContinuumIO/anaconda-package-data
+  description: Anaconda Package Data
+  license: CC-BY-4.0
+  license_family: CC
+  summary: Anaconda package download data

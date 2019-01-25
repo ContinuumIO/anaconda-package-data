@@ -1,0 +1,14 @@
+name: package-data-example
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.7
+  - intake
+  - intake-parquet
+  - dask
+  - pandas
+  - tqdm
+  - hvplot
+  - s3fs

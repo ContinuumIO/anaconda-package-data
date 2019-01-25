@@ -13,13 +13,13 @@ This repository describes the conda package download data provided by Anaconda, 
 
 The download data is provided as record for every unique combination of:
 
-* Time, binned by hour (UTC)
-* Package name (Ex: `pandas`)
-* Package version (Ex: `0.23.0`)
-* Package platform: `linux-32`, `linux-64`, `osx-64`, `win-32`, `win-64`, `linux-armv7`, `linux-ppcle64`, `linux-aarch64`, or `noarch`
-* Python version (if Python is a dependency)
-* Anaconda.org Channel (NA for Anaconda Distribution)
-* Package download count
+* `data_source`: `anaconda` for Anaconda distribution and `conda-forge` for the channel on Anaconda.org
+* `time`: UTC time, binned by hour
+* `pkg_name`: Package name (Ex: `pandas`)
+* `pkg_version`: Package version (Ex: `0.23.0`)
+* `pkg_platform`: One of `linux-32`, `linux-64`, `osx-64`, `win-32`, `win-64`, `linux-armv7`, `linux-ppcle64`, `linux-aarch64`, or `noarch`
+* `pkg_python`: Python version required by the package, if any (Ex: `3.7`)
+* `counts`: Number of downloads for this combination of attributs
 
 The storage format is Parquet, one file per day, with SNAPPY compression.  Files are hosted on S3, with the naming convention:
 

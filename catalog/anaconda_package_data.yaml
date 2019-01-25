@@ -1,0 +1,41 @@
+sources:
+  anaconda_package_data_by_month:
+    description: Conda package downloads for one month.
+    driver: parquet
+    cache:
+      - argkey: urlpath
+        regex: 'anaconda-package-data'
+        type: file
+    parameters:
+      year:
+        description: year
+        type: int
+        default: 2018
+        min: 2017
+        max: 2018
+      month:
+        description: month
+        type: int
+        default: 12
+        min: 1
+        max: 12
+    args:
+      urlpath: 's3://anaconda-package-data/conda/hourly/{{ "%04d" | format(year) }}/{{ "%02d" | format(month) }}/{{ "%04d" | format(year) }}-{{ "%02d" | format(month) }}-*.parquet'
+      #storage_options: {'anon': True}
+  anaconda_package_data_by_year:
+    description: Conda package downloads for one year.
+    driver: parquet
+    cache:
+      - argkey: urlpath
+        regex: 'anaconda-package-data'
+        type: file
+    parameters:
+      year:
+        description: year
+        type: int
+        default: 2018
+        min: 2017
+        max: 2018
+    args:
+      urlpath: 's3://anaconda-package-data/conda/hourly/{{ "%04d" | format(year) }}/*/{{ "%04d" | format(year) }}-*-*.parquet'
+      #storage_options: {'anon': True}
