@@ -5,9 +5,9 @@
 This repository describes the conda package download data provided by Anaconda, Inc.  It includes package download counts starting from July 2017 for the following download sources:
 
 * Anaconda Distribution: The default channels hosted on `repo.anaconda.com` (and historically on `repo.continuum.io`)
-* Select Anaconda.org channels: Currently this includes:
-  - `conda-forge`
+* Select Anaconda.org channels: Currently this includes `conda-forge`.
 
+Check out an example notebook using this data on Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ContinuumIO/anaconda-package-data/master?filepath=anaconda_package_data_example.ipynb)
 
 ## Data Format
 
@@ -24,6 +24,34 @@ The download data is provided as record for every unique combination of:
 The storage format is Parquet, one file per day, with SNAPPY compression.  Files are hosted on S3, with the naming convention:
 
   - `s3://anaconda-package-data/conda/[year]/[month]/[year]-[month]-[day].parquet`
+
+
+## Data Catalog
+
+To simplify using the dataset, we have also created an [Intake](https://intake.readthedocs.io/en/latest/) catalog file, which you can load either directly from the repository if you have the `intake`, `intake-parquet`, and `python-snappy` packages installed:
+
+```
+import intake
+
+cat = intake.Catalog('https://raw.githubusercontent.com/ContinuumIO/anaconda-package-data/master/catalog/anaconda_package_data.yaml')
+monthly = cat.anaconda_package_data_by_month(year=2019, month=12).to_dask()
+```
+
+Or you can install the data package directly with conda, which will also fetch the required dependencies:
+
+```
+conda install -c CHANNEL_TBD anaconda-package-data
+```
+
+And then the data source will appear in the global catalog of your conda environment:
+
+```
+import intake
+
+monthly = intake.cat.anaconda_package_data_by_month(year=2019, month=12).to_dask()
+```
+
+To minimize bandwidth usage, these catalogs are configured so that Intake will cache data locally to your system on first use.
 
 
 ## Known Issues
