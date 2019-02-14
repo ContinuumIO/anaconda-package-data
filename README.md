@@ -30,7 +30,7 @@ The storage format is Parquet, one file per day, with SNAPPY compression.  Files
 
 To simplify using the dataset, we have also created an [Intake](https://intake.readthedocs.io/en/latest/) catalog file, which you can load either directly from the repository if you have the `intake`, `intake-parquet`, and `python-snappy` packages installed:
 
-```
+``` python
 import intake
 
 cat = intake.Catalog('https://raw.githubusercontent.com/ContinuumIO/anaconda-package-data/master/catalog/anaconda_package_data.yaml')
@@ -45,7 +45,7 @@ conda install -c CHANNEL_TBD anaconda-package-data
 
 And then the data source will appear in the global catalog of your conda environment:
 
-```
+``` python
 import intake
 
 monthly = intake.cat.anaconda_package_data_by_month(year=2019, month=12).to_dask()
