@@ -13,7 +13,7 @@ Check out an example notebook using this data on Binder: [![Binder](https://mybi
 
 The download data is provided as record for every unique combination of:
 
-* `data_source`: `anaconda` for Anaconda distribution and `conda-forge` for the channel on Anaconda.org
+* `data_source`: `anaconda` for Anaconda distribution, `conda-forge` for the conda-forge channel on Anaconda.org, and `bioconda` for the bioconda channel on Anaconda.org.
 * `time`: UTC time, binned by hour
 * `pkg_name`: Package name (Ex: `pandas`)
 * `pkg_version`: Package version (Ex: `0.23.0`)
