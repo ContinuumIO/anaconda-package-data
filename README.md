@@ -5,7 +5,7 @@
 This repository describes the conda package download data provided by Anaconda, Inc.  It includes package download counts starting from July 2017 for the following download sources:
 
 * Anaconda Distribution: The default channels hosted on `repo.anaconda.com` (and historically on `repo.continuum.io`)
-* Select Anaconda.org channels: Currently this includes `conda-forge`.
+* Select Anaconda.org channels: Currently this includes `conda-forge` and `bioconda`.
 
 Check out an example notebook using this data on Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ContinuumIO/anaconda-package-data/master?filepath=anaconda_package_data_example.ipynb)
 
