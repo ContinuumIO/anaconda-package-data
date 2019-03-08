@@ -40,7 +40,7 @@ monthly = cat.anaconda_package_data_by_month(year=2019, month=12).to_dask()
 Or you can install the data package directly with conda, which will also fetch the required dependencies:
 
 ```
-conda install -c CHANNEL_TBD anaconda-package-data
+conda install -c intake anaconda-package-data
 ```
 
 And then the data source will appear in the global catalog of your conda environment:
