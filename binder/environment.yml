@@ -2,6 +2,7 @@ name: package-data-example
 channels:
   - defaults
   - conda-forge
+  - intake
 
 dependencies:
   - python=3.7
@@ -12,3 +13,4 @@ dependencies:
   - tqdm
   - hvplot
   - s3fs
+  - anaconda-package-data
