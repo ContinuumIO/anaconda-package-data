@@ -3,7 +3,7 @@ package:
   name: 'anaconda-package-data'
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
@@ -18,5 +18,5 @@ about:
   home: https://github.com/ContinuumIO/anaconda-package-data
   description: Anaconda Package Data
   license: CC-BY-4.0
-  license_family: CC
+  license_family: OTHER
   summary: Anaconda package download data
