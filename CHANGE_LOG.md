@@ -1,5 +1,8 @@
 # Changelog
 
+## 2019-03-12
+- Convert string columns to dictionary encoding
+
 ## 2019-03-06
 - Add bioconda channel
 - Update data through Feb 2019
