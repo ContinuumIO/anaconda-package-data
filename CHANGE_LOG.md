@@ -1,5 +1,8 @@
 # Changelog
 
+## 2019-08-02
+- July 2019 data has been uploaded
+
 ## 2019-07-03
 - June 2019 data has been uploaded
 
