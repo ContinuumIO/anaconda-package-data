@@ -12,5 +12,5 @@ dependencies:
   - pandas
   - tqdm
   - hvplot
-  - s3fs
+  - s3fs>=0.3
   - anaconda-package-data
