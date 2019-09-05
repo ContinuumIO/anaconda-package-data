@@ -1,5 +1,9 @@
 # Changelog
 
+## 2019-09-05
+- August 2019 data has been uploaded
+- Add pyviz channel
+
 ## 2019-08-02
 - July 2019 data has been uploaded
 
