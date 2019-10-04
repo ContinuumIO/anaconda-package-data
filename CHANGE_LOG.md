@@ -2,7 +2,7 @@
 
 ## 2019-10-04
 - September 2019 data has been uploaded
-- Add rdkit channel
+- Add rdkit and pyviz channel for July through September 2019 data
 
 ## 2019-09-05
 - August 2019 data has been uploaded
