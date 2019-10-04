@@ -1,5 +1,9 @@
 # Changelog
 
+## 2019-10-04
+- September 2019 data has been uploaded
+- Add rdkit channel
+
 ## 2019-09-05
 - August 2019 data has been uploaded
 - Add pyviz channel
