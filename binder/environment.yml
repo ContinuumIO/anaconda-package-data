@@ -1,16 +1,21 @@
 name: package-data-example
 channels:
-  - defaults
   - conda-forge
+  - defaults
   - intake
 
 dependencies:
   - python=3.7
+  - pip
   - intake
   - intake-parquet
   - dask
   - pandas
+  - panel
   - tqdm
   - hvplot
+  - colorcet
   - s3fs>=0.3
   - anaconda-package-data
+  - pip:
+    - jupyter-panel-proxy
