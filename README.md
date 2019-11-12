@@ -24,7 +24,7 @@ The download data is provided as record for every unique combination of:
 
 The storage format is Parquet, one file per day, with SNAPPY compression.  Files are hosted on S3, with the naming convention:
 
-  - `s3://anaconda-package-data/conda/[year]/[month]/[year]-[month]-[day].parquet`
+  - `s3://anaconda-package-data/conda/hourly/[year]/[month]/[year]-[month]-[day].parquet`
 
 
 ## Data Catalog
