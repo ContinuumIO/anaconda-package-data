@@ -2,7 +2,7 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
-This repository describes the conda package download data provided by Anaconda, Inc.  It includes package download counts starting from July 2017 for the following download sources:
+This repository describes the conda package download data provided by Anaconda, Inc.  It includes package download counts starting from Jan. 2017 for the following download sources:
 
 * Anaconda Distribution: The default channels hosted on `repo.anaconda.com` (and historically on `repo.continuum.io`)
 * Select Anaconda.org channels: Currently this includes `conda-forge` and `bioconda`.
