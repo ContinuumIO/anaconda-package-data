@@ -1,5 +1,10 @@
 # Changelog
 
+## 2020-01-09
+- December 2019 data has been uploaded
+- Add rapidsai and rapidsai-nightly channels 
+- Update all previous data to include channels anaconda, conda-forge, bioconda, pyviz, rdkit, rapidsai, and rapidsai-nightly
+
 ## 2019-12-09
 - November 2019 data has been uploaded
 
