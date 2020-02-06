@@ -12,7 +12,7 @@ sources:
         type: int
         default: 2018
         min: 2017
-        max: 2019
+        max: 2020
       month:
         description: month
         type: int
@@ -35,7 +35,7 @@ sources:
         type: int
         default: 2018
         min: 2017
-        max: 2019
+        max: 2020
     args:
       urlpath: 's3://anaconda-package-data/conda/hourly/{{ "%04d" | format(year) }}/*/{{ "%04d" | format(year) }}-*-*.parquet'
       storage_options: {'anon': True}
@@ -52,7 +52,7 @@ sources:
         type: int
         default: 2018
         min: 2017
-        max: 2019
+        max: 2020
       month:
         description: month
         type: int
