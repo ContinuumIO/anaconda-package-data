@@ -1,5 +1,8 @@
 # Changelog
 
+## 2020-02-06
+- January data has been uploaded
+
 ## 2020-01-09
 - December 2019 data has been uploaded
 - Add rapidsai and rapidsai-nightly channels 
