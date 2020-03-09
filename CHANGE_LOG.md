@@ -1,5 +1,8 @@
 # Changelog
 
+## 2020-03-09
+- February data has been uploaded
+
 ## 2020-02-06
 - January data has been uploaded
 
