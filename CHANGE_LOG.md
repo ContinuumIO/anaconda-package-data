@@ -1,5 +1,8 @@
 # Changelog
 
+## 2020-05-07
+- April data has been uploaded 
+
 ## 2020-04-16
 - March data has been uploaded
 - The release of Conda 4.7 in May 2019 caused undercounting of packages because the new .conda file format was introduced. The undercounting was only for packages served from repo.anaconda.com, which is the only repository with new .conda packages. Conda 4.7 was in testing from May 19 through June 25, then it was released offically. We reprocessed all the data starting from May 2019 to include .conda packages. 
