@@ -17,5 +17,6 @@ dependencies:
   - colorcet
   - s3fs>=0.3
   - anaconda-package-data
+  - python-snappy
   - pip:
     - jupyter-panel-proxy
