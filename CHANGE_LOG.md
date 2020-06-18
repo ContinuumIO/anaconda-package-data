@@ -1,5 +1,8 @@
 # Changelog
 
+## 2020-06-18
+- May data has been uploaded 
+
 ## 2020-05-07
 - April data has been uploaded 
 
