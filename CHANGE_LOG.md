@@ -1,5 +1,8 @@
 # Changelog
 
+## 2020-09-09
+- August data has been uploaded 
+
 ## 2020-08-10
 - July data has been uploaded 
 
