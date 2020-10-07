@@ -1,5 +1,8 @@
 # Changelog
 
+## 2020-10-07 
+- We missed some hours in May. Reprossed and re-uploaded May data. 
+
 ## 2020-10-06 
 - September data has been uploaded
 
