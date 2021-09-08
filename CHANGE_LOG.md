@@ -1,5 +1,8 @@
 # Changelog
 
+## 2021-09-08
+- August data has been uploaded 
+
 ## 2021-08-06
 - June and July data has been uploaded
 - `nvidia` channel has been added to June and July data.  `nvidia` channel will be added to previous months during future reprocessing.
