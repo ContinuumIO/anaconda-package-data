@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021-10-12
+- September data has been uploaded 
+- `plotly` channel has been added to September data
+
 ## 2021-09-08
 - August data has been uploaded 
 
