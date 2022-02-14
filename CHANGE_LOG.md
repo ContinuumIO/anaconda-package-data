@@ -1,5 +1,8 @@
 # Changelog
 
+## 2022-02-14
+- January data has been uploaded
+
 ## 2022-01-11
 - December data has been uploaded
 
