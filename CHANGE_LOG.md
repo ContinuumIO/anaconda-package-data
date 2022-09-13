@@ -1,5 +1,14 @@
 # Changelog
 
+## 2022-09-11
+- August data has been uploaded
+
+## 2022-08-17
+- July data has been uploaded
+
+## 2022-07-16
+- June data has been uploaded
+
 ## 2022-06-15
 - May data has been uploaded
 - However, we found a bug with fastparquet (see [bug report](https://github.com/dask/fastparquet/issues/789)). Please use pyarrow to read in data in the meantime. 
