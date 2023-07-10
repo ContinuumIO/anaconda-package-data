@@ -1,5 +1,8 @@
 # Changelog
 
+## 2023-07-11
+- `pytorch` and `pytorch-test` channels have been added to the dataset going back to 2023-01-01.
+
 ## 2022-09-11
 - August data has been uploaded
 
