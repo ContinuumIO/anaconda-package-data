@@ -5,18 +5,20 @@ channels:
   - intake
 
 dependencies:
-  - python=3.7
+  - python
   - pip
   - intake
   - intake-parquet
   - dask
-  - pandas
+  - pandas=1.5.3
   - panel
   - tqdm
   - hvplot
   - colorcet
-  - s3fs>=0.3
+  - s3fs
   - anaconda-package-data
   - python-snappy
+  - jupyter
+  - notebook
   - pip:
     - jupyter-panel-proxy
