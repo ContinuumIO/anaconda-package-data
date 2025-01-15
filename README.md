@@ -11,10 +11,10 @@ This repository describes the conda package download data provided by Anaconda, 
   * `anaconda`
   * `bioconda`
   * `conda-forge`
-  * `nvidia` - 2021-06
-  * `plotly` - 2021-09
-  * `pytorch` - 2023-01
-  * `pytorch-test` - 2023-01
+  * `nvidia` >= 2021-06
+  * `plotly` >= 2021-09
+  * `pytorch` >= 2023-01
+  * `pytorch-test` >= 2023-01
   * `pyviz`
   * `rapidsai`
   * `rapidsai-nightly`
