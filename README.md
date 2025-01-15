@@ -12,7 +12,7 @@ This repository describes the conda package download data provided by Anaconda, 
 From the root folder, run:
 
 ```
-conda env create --file binder/environment.yml
+conda env create --file environment.yml
 conda activate package-data-example
 jupyter notebook
 ```
