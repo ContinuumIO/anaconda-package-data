@@ -19,7 +19,7 @@ sources:
         min: 1
         max: 12
     args:
-      urlpath: 's3://anaconda-package-data/conda/monthly/{{ "%04d" | format(year) }}/{{ "%04d" | format(year) }}-{{ "%02d" | format(month) }}.parquet'
+      urlpath: 's3://anaconda-package-data/conda/hourly/{{ "%04d" | format(year) }}/{{ "%02d" | format(month) }}/{{ "%04d" | format(year) }}-{{ "%02d" | format(month) }}-*.parquet'
       storage_options: {'anon': True}
   anaconda_package_data_by_year:
     description: Conda package downloads for one year.
