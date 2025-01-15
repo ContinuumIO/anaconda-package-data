@@ -1,5 +1,12 @@
 # Changelog
 
+## 2025-01-02
+- December data has been uploaded
+
+## 2024-12-23
+- June - November data has been uploaded
+- Previously uploaded data, beginning with `2022-06`, has been updated to include `.conda` packages ([#45](https://github.com/ContinuumIO/anaconda-package-data/issues/45#issuecomment-2559990118))
+
 ## 2023-07-11
 - `pytorch` and `pytorch-test` channels have been added to the dataset going back to 2023-01-01.
 
