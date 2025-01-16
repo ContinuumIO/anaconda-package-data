@@ -65,3 +65,19 @@ sources:
     args:
       urlpath: 's3://anaconda-package-data/conda/hourly/{{ "%04d" | format(year) }}/{{ "%02d" | format(month) }}/{{ "%04d" | format(year) }}-{{ "%02d" | format(month) }}-{{ "%02d" | format(day) }}.parquet'
       storage_options: {'anon': True}
+  anaconda_package_data_by_year_month_res:
+    description: Conda package downloads for one year at monthly resolution.
+    driver: parquet
+    cache:
+      - argkey: urlpath
+        regex: 'anaconda-package-data'
+        type: file
+    parameters:
+      year:
+        description: year
+        type: int
+        default: 2018
+        min: 2017
+    args:
+      urlpath: 's3://anaconda-package-data/conda/monthly/{{ "%04d" | format(year) }}/{{ "%04d" | format(year) }}-*.parquet'
+      storage_options: {'anon': True}
